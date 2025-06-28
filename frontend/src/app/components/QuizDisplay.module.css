@@ -1,0 +1,113 @@
+.quizContainer {
+  background-color: #1e293b;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+  margin-top: 2rem;
+  color: white;
+}
+
+.heading {
+  font-size: 1.75rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.topicHighlight {
+  color: #60a5fa;
+}
+
+.questionList {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.questionItem {
+  background-color: #334155;
+  padding: 1rem;
+  border-radius: 0.75rem;
+}
+
+.questionText {
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.optionsGrid {
+  display: grid;
+  gap: 0.5rem;
+}
+
+@media (min-width: 640px) {
+  .optionsGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.optionButton {
+  width: 100%;
+  text-align: left;
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.2s;
+  border: none;
+  cursor: pointer;
+}
+
+.optionDefault {
+  background-color: #334155;
+  color: #e2e8f0;
+}
+
+.optionDefault:hover {
+  background-color: #475569;
+}
+
+.optionSelected {
+  background-color: #2563eb;
+  color: white;
+}
+
+.optionCorrect {
+  background-color: #16a34a;
+  color: white;
+}
+
+.optionIncorrect {
+  background-color: #dc2626;
+  color: white;
+}
+
+.explanation {
+  font-size: 0.875rem;
+  color: #94a3b8;
+  margin-top: 0.5rem;
+}
+
+.submitButton {
+  margin-top: 2rem;
+  width: 100%;
+  background-color: #16a34a;
+  color: white;
+  font-weight: 600;
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submitButton:hover {
+  background-color: #15803d;
+}
+
+.scoreMessage {
+  text-align: center;
+  font-size: 1.25rem;
+  margin-top: 1.5rem;
+}
