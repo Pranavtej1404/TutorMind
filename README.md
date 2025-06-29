@@ -1,8 +1,4 @@
-Of course. A good README file is essential for any project. It serves as the front door, explaining what the project is, what it does, and how to get it running.
 
-Here is a comprehensive README.md file tailored specifically for your *AI StudyMate* application. You can just copy and paste this into a new file named README.md in the root directory of your project (ai-studymate/README.md).
-
----
 
 # AI StudyMate 🚀
 
